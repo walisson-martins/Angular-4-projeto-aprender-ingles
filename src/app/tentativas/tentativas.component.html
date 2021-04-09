@@ -1,0 +1,10 @@
+<!-- proptery bind -->
+
+<!-- <img [src]="coracaoVazio" />
+<img [src]="coracaoCheio" />
+<img [src]="" /> -->
+
+<img *ngFor="let coracao of coracoes" [src]="coracao.exibeCoracao()" />
+
+<!-- String interpolation -->
+<!-- {{ coracaoCheio}} -->
